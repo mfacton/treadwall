@@ -1,0 +1,23 @@
+https://treadwallfitness.com/
+very thin electronics (plates are close)
+not too tall (plates fold next to eachother)
+beware of screw holes for rock mounting
+
+12V power rail regulated to 5V for each row
+resistors for leds 5V-> around 3V
+all wires connect daisy chained (easy to fit all types)
+
+have boards on the side of the treadmil for easy maintinence
+also possibly brushed design
+
+center slip ring is a possibility too:
+https://www.amazon.com/Wires-250RPM-0-600V-Turbine-Generator/dp/B07KT8VT49/ref=sr_1_18_sspa?dib=eyJ2IjoiMSJ9.IRyuA96vmHwE0i6WI5ToTWUX76UzN9jQs5qAgMw3gnn0koPEzalx2ricTzpiPvsy8F1ab7sLV9wcaidoGMoUCi3VjA6IYpmotA1VTCaSSjbFLRoFXN7f_JPMyDi2V1kGwye5FdfQdbzF5MrJ7G6yYO1g9VzUnhLi5s4rYBVMiJYp3m89RXP9p-xHADXbvgBCsWWM2eS3dQmUBR_eLv03r7eLp507gtAJASQzFCnbCUj7QX6C3__6V1i1aB_iN7lOxN7Js-gaORPrbS7fXMs3x4XFSc5zVCe1xgP22AD_JeY.dJxyqkkYliKDwugYZkOogMQw5SuSX08nLJj9KTUW15g&dib_tag=se&keywords=electrical+slip+ring&qid=1720687928&sr=8-18-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1
+
+preferably 3 connectors: 2 for power 1 for communication
+probably put a processor on the outer adapter board
+use only arduinos for easy configuration by users
+
+cheap 12V power supply (like laptop barrel jack connector)
+https://www.amazon.com/LEDMO-Power-Supply-Transformers-Adapter/dp/B01461MOGQ/ref=sr_1_4?crid=14FJJM8PMHTDZ&dib=eyJ2IjoiMSJ9.MZI3GdxJX7MvlTQLYpg4W-zHPbLSRoLEJtupdyNrNZnffYrkFqpXi2BhLq1_UMDpVhKbNc022ynuFKkWVTP--xZOiIzw1yjFdN8pjz1kLsZWV1Zpdu-PAVrWyiEjvtbqHXzzAM52bpFBhGX0_aZ_jvN8t3wmpJrhnRluJ_NnpEQ8vXqiFdEwRqw_ySF0oW1ZhQmqYCSfc1hAi1xy10yCzhChIePSakAtFn2j0pmm2Bg.3fVEGUyImjQ141mYb52e2ElQ95EWE4DMwi1owJV7RyQ&dib_tag=se&keywords=12v%2Bpower%2Bsupply&qid=1720688194&sprefix=12V%2Bpower%2Bsup%2Caps%2C81&sr=8-4&th=1
+
+2 shift registers for up to 10 leds per row
