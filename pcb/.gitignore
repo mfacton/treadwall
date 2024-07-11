@@ -1,0 +1,8 @@
+### KiCad ###
+backups/
+*-backups/
+*.lck
+*.log
+fp-info-cache
+*auto_saved_files*
+
