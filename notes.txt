@@ -21,3 +21,31 @@ cheap 12V power supply (like laptop barrel jack connector)
 https://www.amazon.com/LEDMO-Power-Supply-Transformers-Adapter/dp/B01461MOGQ/ref=sr_1_4?crid=14FJJM8PMHTDZ&dib=eyJ2IjoiMSJ9.MZI3GdxJX7MvlTQLYpg4W-zHPbLSRoLEJtupdyNrNZnffYrkFqpXi2BhLq1_UMDpVhKbNc022ynuFKkWVTP--xZOiIzw1yjFdN8pjz1kLsZWV1Zpdu-PAVrWyiEjvtbqHXzzAM52bpFBhGX0_aZ_jvN8t3wmpJrhnRluJ_NnpEQ8vXqiFdEwRqw_ySF0oW1ZhQmqYCSfc1hAi1xy10yCzhChIePSakAtFn2j0pmm2Bg.3fVEGUyImjQ141mYb52e2ElQ95EWE4DMwi1owJV7RyQ&dib_tag=se&keywords=12v%2Bpower%2Bsupply&qid=1720688194&sprefix=12V%2Bpower%2Bsup%2Caps%2C81&sr=8-4&th=1
 
 2 shift registers for up to 10 leds per row
+
+LED RGBW 80mA per channel: C7371891
+38mA LED RGBW driver: C20622183
+
+JST PH Connectors: C157929
+JST PH Housing: C495663
+
+cable current = 8*40mA = 500mA rated wires
+could be JST XH or PH
+
+48*8 = ~400 LEDS
+PCBs are about 80$
+
+Single LED = 0.045$(Driver) + 0.035$(LED) = 0.08$
+Total LED = 400*0.08$ = 35$
+
+Harnessing
+Connectors = 400*2*0.02$ = 16$
+Housings = 400*2*0.022$ = 20$
+48*7*3 = ~1000 Precrimped Wires
+Wire Cost = 225$(Digikey)
+Wire Cost = 150$(alibaba)
+https://www.aliexpress.us/item/3256804150631941.html
+
+Total LED system cost
+80$(PCB) + 35$(components) + 150$(harnessing)
+Total = 300$
+
