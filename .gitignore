@@ -1,0 +1,10 @@
+### STM32 ###
+.metadata/
+Debug/
+Release/
+Drivers/
+Middlewares/
+USB_Device/
+USB_DEVICE/
+FATFS/
+
